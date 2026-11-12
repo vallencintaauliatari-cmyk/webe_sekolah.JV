@@ -1,0 +1,5 @@
+WORKDIR /var/www/html
+COPY . .
+RUN composer install --no dev --optimize-autoloader--no-interaction
+RUN chown -R www-data:www-data storage bootstap/cache
+CMD ["bash,"-c","seed -i 's/Listen 80/Listen ${PORT}/'/etc/apache2/ports.conf && sed -i 's/<VirtualHost \\*80./<VirtualHOST*:${PORT}>/' /etc/apche2/sites-available/000-default.cofn && apache2-foreground"]

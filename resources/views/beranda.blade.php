@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -157,6 +158,7 @@
         }
 
         @media (max-width: 767.98px) {
+
             .hero-section,
             .hero-section .carousel-inner,
             .hero-section .carousel-item {
@@ -187,28 +189,21 @@
         <div class="container">
 
             <a class="navbar-brand d-flex align-items-center" href="#beranda">
-                <i class="fas fa-school fa-2x me-2"
-                   style="color: var(--primary-blue);"></i>
+                <i class="fas fa-school fa-2x me-2" style="color: var(--primary-blue);"></i>
 
                 <div>
-                    <h5 class="mb-0 fw-bold"
-                        style="color: var(--primary-blue);">
+                    <h5 class="mb-0 fw-bold" style="color: var(--primary-blue);">
                         SMK PGRI WLINGI
                     </h5>
 
-                    <small class="text-muted"
-                           style="font-size: 0.7rem; letter-spacing: 1px;">
+                    <small class="text-muted" style="font-size: 0.7rem; letter-spacing: 1px;">
                         Membentuk Karakter Siswa Siap Kerja
                     </small>
                 </div>
             </a>
 
-            <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Buka navigasi">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Buka navigasi">
 
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -221,11 +216,8 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
-                           href="#profil"
-                           role="button"
-                           data-bs-toggle="dropdown"
-                           aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#profil" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Profil
                         </a>
 
@@ -244,11 +236,8 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
-                           href="#akademik"
-                           role="button"
-                           data-bs-toggle="dropdown"
-                           aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#akademik" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Akademik
                         </a>
 
@@ -289,74 +278,50 @@
 
     <!-- SLIDER BERANDA -->
     <section id="beranda">
-        <div id="heroCarousel"
-             class="carousel slide hero-section"
-             data-bs-ride="carousel">
+        <div id="heroCarousel" class="carousel slide hero-section" data-bs-ride="carousel">
 
             <div class="carousel-indicators">
-                <button type="button"
-                        data-bs-target="#heroCarousel"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
 
-                <button type="button"
-                        data-bs-target="#heroCarousel"
-                        data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
 
-                <button type="button"
-                        data-bs-target="#heroCarousel"
-                        data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
 
             <div class="carousel-inner h-100">
 
                 <div class="carousel-item active h-100">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekmhxKWnVc_k8gUEaTznqRSCC9pO6az6DfT3y5yG-ySg1Dt3hnfcL0x7h&s=10"
-                        class="d-block w-100 h-100"
-                        alt="Banner sekolah 1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekmhxKWnVc_k8gUEaTznqRSCC9pO6az6DfT3y5yG-ySg1Dt3hnfcL0x7h&s=10"
+                        class="d-block w-100 h-100" alt="Banner sekolah 1">
                 </div>
 
                 <div class="carousel-item h-100">
-                    <img
-                        src="https://smkpgriwlingi.sch.id/gambar/dropzone/WhatsApp%20Image%202025-11-03%20at%2012.04.05_1762148611.jpg"
-                        class="d-block w-100 h-100"
-                        alt="Banner sekolah 2">
+                    <img src="https://smkpgriwlingi.sch.id/gambar/dropzone/WhatsApp%20Image%202025-11-03%20at%2012.04.05_1762148611.jpg"
+                        class="d-block w-100 h-100" alt="Banner sekolah 2">
                 </div>
 
                 <div class="carousel-item h-100">
-                    <img
-                        src="https://www.gamelab.id/uploads/modules/4%20(15).jpg?1640245414313"
-                        class="d-block w-100 h-100"
-                        alt="Banner sekolah 3">
+                    <img src="https://www.gamelab.id/uploads/modules/4%20(15).jpg?1640245414313"
+                        class="d-block w-100 h-100" alt="Banner sekolah 3">
                 </div>
 
             </div>
 
-            <button class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#heroCarousel"
-                    data-bs-slide="prev"
-                    aria-label="Foto sebelumnya">
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"
+                aria-label="Foto sebelumnya">
 
-                <span class="carousel-control-prev-icon"
-                      aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 
                 <span class="visually-hidden">Previous</span>
             </button>
 
-            <button class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#heroCarousel"
-                    data-bs-slide="next"
-                    aria-label="Foto berikutnya">
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"
+                aria-label="Foto berikutnya">
 
-                <span class="carousel-control-next-icon"
-                      aria-hidden="true"></span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
 
                 <span class="visually-hidden">Next</span>
             </button>
@@ -388,10 +353,8 @@
                     </h5>
 
                     <div class="d-flex flex-column flex-md-row mt-4">
-                        <img
-                            src="https://i.ytimg.com/vi/XjmNoA9cb6s/maxresdefault.jpg"
-                            class="img-kepsek me-md-4 mb-3 mb-md-0"
-                            alt="Kepala Sekolah">
+                        <img src="https://i.ytimg.com/vi/XjmNoA9cb6s/maxresdefault.jpg"
+                            class="img-kepsek me-md-4 mb-3 mb-md-0" alt="Kepala Sekolah">
 
                         <div>
                             <h5 class="fw-bold">
@@ -432,14 +395,11 @@
                     <h5 class="section-title">Pengumuman Terbaru</h5>
 
                     <div class="news-list-item">
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekmhxKWnVc_k8gUEaTznqRSCC9pO6az6DfT3y5yG-ySg1Dt3hnfcL0x7h&s=10"
-                            class="img-thumbnail-news me-3"
-                            alt="Informasi sekolah">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekmhxKWnVc_k8gUEaTznqRSCC9pO6az6DfT3y5yG-ySg1Dt3hnfcL0x7h&s=10"
+                            class="img-thumbnail-news me-3" alt="Informasi sekolah">
 
                         <div class="flex-grow-1">
-                            <h6 class="mb-1 fw-bold"
-                                style="font-size: 0.9rem;">
+                            <h6 class="mb-1 fw-bold" style="font-size: 0.9rem;">
                                 Informasi Penerimaan Peserta Didik Baru
                             </h6>
 
@@ -453,14 +413,11 @@
                     </div>
 
                     <div class="news-list-item">
-                        <img
-                            src="https://www.gamelab.id/uploads/modules/2%20(28).jpg?1640245441122"
-                            class="img-thumbnail-news me-3"
-                            alt="Informasi kegiatan">
+                        <img src="https://www.gamelab.id/uploads/modules/2%20(28).jpg?1640245441122"
+                            class="img-thumbnail-news me-3" alt="Informasi kegiatan">
 
                         <div class="flex-grow-1">
-                            <h6 class="mb-1 fw-bold"
-                                style="font-size: 0.9rem;">
+                            <h6 class="mb-1 fw-bold" style="font-size: 0.9rem;">
                                 Informasi Kegiatan Sekolah
                             </h6>
 
@@ -474,14 +431,11 @@
                     </div>
 
                     <div class="news-list-item">
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHwggSWavd3p4KGSO69I2b_WnnYbAKHewQtxIG_u2gKvGcqXMZrOTBJbY&s=10"
-                            class="img-thumbnail-news me-3"
-                            alt="Informasi daftar ulang">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHwggSWavd3p4KGSO69I2b_WnnYbAKHewQtxIG_u2gKvGcqXMZrOTBJbY&s=10"
+                            class="img-thumbnail-news me-3" alt="Informasi daftar ulang">
 
                         <div class="flex-grow-1">
-                            <h6 class="mb-1 fw-bold"
-                                style="font-size: 0.9rem;">
+                            <h6 class="mb-1 fw-bold" style="font-size: 0.9rem;">
                                 Fakta Biaya Daftar Ulang
                             </h6>
 
@@ -495,9 +449,8 @@
                     </div>
 
                     <div class="mt-4">
-                        <a href="#pengumuman"
-                           class="btn btn-outline-primary w-100 fw-bold"
-                           style="color: var(--primary-blue);
+                        <a href="#pengumuman" class="btn btn-outline-primary w-100 fw-bold"
+                            style="color: var(--primary-blue);
                                   border-color: var(--primary-blue);">
 
                             Lihat Semua Pengumuman
@@ -513,16 +466,16 @@
             <div class="col-12">
                 <div class="bg-white p-4 rounded shadow-sm">
 
-                    <div class="d-flex justify-content-between
+                    <div
+                        class="d-flex justify-content-between
                                 align-items-center mb-4 flex-wrap">
 
                         <h5 class="section-title mb-0">
                             Kegiatan Terbaru
                         </h5>
 
-                        <a href="#kegiatan"
-                           class="text-decoration-none fw-bold mt-2 mt-sm-0"
-                           style="color: var(--primary-blue);">
+                        <a href="#kegiatan" class="text-decoration-none fw-bold mt-2 mt-sm-0"
+                            style="color: var(--primary-blue);">
 
                             Lihat Semua Kegiatan
                             <i class="fas fa-arrow-right ms-1"></i>
@@ -536,14 +489,11 @@
                         <div class="col">
                             <div class="card h-100 border-0 shadow-sm">
 
-                                <img
-                                    src="https://www.gamelab.id/uploads/modules/2%20(28).jpg?1640245441122"
-                                    class="card-img-top img-kegiatan"
-                                    alt="Upacara Hari Pendidikan Nasional">
+                                <img src="https://www.gamelab.id/uploads/modules/2%20(28).jpg?1640245441122"
+                                    class="card-img-top img-kegiatan" alt="Upacara Hari Pendidikan Nasional">
 
                                 <div class="card-body p-3">
-                                    <h6 class="card-title fw-bold mb-1"
-                                        style="font-size: 0.9rem;">
+                                    <h6 class="card-title fw-bold mb-1" style="font-size: 0.9rem;">
                                         Upacara Hari Pendidikan Nasional
                                     </h6>
 
@@ -559,14 +509,11 @@
                         <div class="col">
                             <div class="card h-100 border-0 shadow-sm">
 
-                                <img
-                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpCXWxSGaK6xDJAasiut66oRhZD_tFMNFT1PC_DkGRc9tGvcHcgZhN5k&s=10"
-                                    class="card-img-top img-kegiatan"
-                                    alt="Kegiatan Ekstrakurikuler Pramuka">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpCXWxSGaK6xDJAasiut66oRhZD_tFMNFT1PC_DkGRc9tGvcHcgZhN5k&s=10"
+                                    class="card-img-top img-kegiatan" alt="Kegiatan Ekstrakurikuler Pramuka">
 
                                 <div class="card-body p-3">
-                                    <h6 class="card-title fw-bold mb-1"
-                                        style="font-size: 0.9rem;">
+                                    <h6 class="card-title fw-bold mb-1" style="font-size: 0.9rem;">
                                         Kegiatan Ekstrakurikuler Pramuka
                                     </h6>
 
@@ -582,14 +529,11 @@
                         <div class="col">
                             <div class="card h-100 border-0 shadow-sm">
 
-                                <img
-                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJ4jjWFsGrVqLAsF43eFg0iPP23lBFPFAyO6ocXM22vx4Le0s_ZiuJD1U&s=10"
-                                    class="card-img-top img-kegiatan"
-                                    alt="Lomba Seni">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJ4jjWFsGrVqLAsF43eFg0iPP23lBFPFAyO6ocXM22vx4Le0s_ZiuJD1U&s=10"
+                                    class="card-img-top img-kegiatan" alt="Lomba Seni">
 
                                 <div class="card-body p-3">
-                                    <h6 class="card-title fw-bold mb-1"
-                                        style="font-size: 0.9rem;">
+                                    <h6 class="card-title fw-bold mb-1" style="font-size: 0.9rem;">
                                         Lomba Seni
                                     </h6>
 
@@ -605,14 +549,11 @@
                         <div class="col">
                             <div class="card h-100 border-0 shadow-sm">
 
-                                <img
-                                    src="https://www.gamelab.id/uploads/modules/4%20(15).jpg?1640245414313"
-                                    class="card-img-top img-kegiatan"
-                                    alt="Kunjungan Industri">
+                                <img src="https://www.gamelab.id/uploads/modules/4%20(15).jpg?1640245414313"
+                                    class="card-img-top img-kegiatan" alt="Kunjungan Industri">
 
                                 <div class="card-body p-3">
-                                    <h6 class="card-title fw-bold mb-1"
-                                        style="font-size: 0.9rem;">
+                                    <h6 class="card-title fw-bold mb-1" style="font-size: 0.9rem;">
                                         Kunjungan Industri
                                     </h6>
 
@@ -711,7 +652,8 @@
                 <!-- IDENTITAS SEKOLAH -->
                 <div class="col-md-4 mb-4 text-center text-md-start">
 
-                    <div class="d-flex align-items-center
+                    <div
+                        class="d-flex align-items-center
                                 justify-content-center
                                 justify-content-md-start mb-3">
 
@@ -723,7 +665,7 @@
                             </h5>
 
                             <small class="text-white-50"
-                                   style="font-size: 0.7rem;
+                                style="font-size: 0.7rem;
                                           letter-spacing: 1px;">
                                 Membentuk Karakter Siswa Siap Kerja
                             </small>
@@ -778,7 +720,8 @@
                 </div>
 
                 <!-- COPYRIGHT -->
-                <div class="col-md-4 mb-4 d-flex flex-column
+                <div
+                    class="col-md-4 mb-4 d-flex flex-column
                             justify-content-center justify-content-md-end
                             text-center text-md-end">
 
@@ -820,4 +763,5 @@
     </script>
 
 </body>
+
 </html>
